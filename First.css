@@ -1,0 +1,69 @@
+body 
+{
+	margin:0;
+	padding:0;
+	}
+
+#curve{
+	position: absolute;
+	bottom:0;
+}
+   
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+
+}
+a
+{
+ color:red;
+}
+.container{
+	
+	padding: 12px 10px;
+}
+.containerr{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-style: normal;
+	padding: 10px 10px;
+	color: tomato;
+}
+.cr
+{
+	color:red;
+	position:absolute;
+	bottom:0;
+}
+#cr
+{
+	bottom:0%;
+	position:fixed;
+}
+button{
+	position: relative;
+	border: none;
+	transition: .4s ease-in;
+	z-index: 1;
+	padding: 12px 32px;
+	font-size: 16px;
+	cursor: pointer;
+	margin: 4px 2px;
+
+}
+button::before,
+button::after{
+	position: absolute;
+	content: "";
+	z-index: -1;
+}
+.btn-1:hover {
+	border:2px solid #ff96ad;
+	color: #ff96ad;
+	background-color: #000080;
+}
+.btn-2:hover {
+	border:2px solid #ff96ad;
+	color: #ff96ad;
+	background-color: #000080;
+}

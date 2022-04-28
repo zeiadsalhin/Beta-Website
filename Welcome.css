@@ -1,0 +1,46 @@
+body 
+{
+    margin:0;
+	padding:0;
+}
+
+.btn-11{
+	font-size: 30px;
+}
+.btn-11:hover{
+	border: 2px solid #FFFAFA;
+	color: #FFFAFA;
+	background-color: #000000;
+	transition: .3s ease-in;
+}
+.p{
+text-align:center;
+}
+.container{
+	align-content: center;
+}
+button{
+	position: relative;
+	border: none;
+	transition: .1s ease-in;
+	z-index: 1;
+	padding: 4px 14px;
+	font-size: 16px;
+	cursor: pointer;
+	margin: 2px 2px;
+
+}
+button::before,
+button::after{
+	position: absolute;
+	content: "";
+	z-index: -1;
+}
+.btn-1:hover {
+	border:2px solid #ff96ad;
+	color: #ff96ad;
+	background-color: #17181c;
+}
+.bi bi-instagram{
+	margin: 2px 2px;
+}
