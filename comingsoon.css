@@ -45,13 +45,40 @@
 
   nav ul li a {
       text-decoration: none;
-      color: red;  
+      color: rgb(255, 255, 255);  
       font-size: 20px;
       font-family: 'Courier New', Courier, monospace;
       font-weight: 800;
-      background-color: #ffffff;
+      background-color: #000000;
       border: #ffffff;
   }
+
+  nav ul li input {
+    text-decoration: none;
+    color: rgb(0, 0, 0);  
+    font-size: 20px;
+    font-family: 'Sans-serif', Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    background-color: #ffffff;
+    border: #ffffff;
+}
+
+.input{
+    display: block;
+}
+#input{
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+
+.menu-icon{
+    display: block;
+}
+#menuList{
+    overflow: hidden;
+    transition: 0.5s;
+}
 
   .video {
       position: absolute;
@@ -108,26 +135,67 @@
       content: "";
       z-index: -1;
   }
+
+  .btn-1{
+    position: absolute;
+    border: 0px;
+    transition: .1s ease-in;
+    z-index: 1;
+    padding: 0px 0px;
+    
+    cursor: pointer;
+    margin: 0px 900px;
+
+}
   
   .btn-1:hover {
       border:2px solid #ff96ad;
       color: #ff96ad;
       background-color: #17181c;
   }
+
+  .btn-2{
+    position: absolute;
+    border: 0px;
+    transition: .1s ease-in;
+    z-index: 1;
+    padding: 0px 0px;
+    
+    cursor: pointer;
+    margin: 0px 925px;
+
+}
+  
+  .btn-2:hover {
+      border:2px solid #ff96ad;
+      color: #ff96ad;
+      background-color: #17181c;
+  }
+
   .bi bi-instagram{margin:2px 2px;}
   .cr{
       text-align: center;
       bottom: 1;
       ;
   }
-  .menu-icon{
-    width: 25px;
-    cursor: pointer;
-    display: none;
+ 
+
+.bi bi-search{position: absolute;
+    border: 0px;
+    transition: .1s ease-in;
     z-index: 1;
+    padding: 5px 5px;
+    display: block;
+    cursor: pointer;
+    margin: 0px 0px;
+
 }
 
-  
+#bi bi-search{
+    overflow: hidden;
+    transition: 0.5s;
+}
+
 
   @media only screen and (max-width: 700px){
      
